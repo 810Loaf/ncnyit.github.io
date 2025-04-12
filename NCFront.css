@@ -26,7 +26,8 @@ body {
     align-items: center;
     justify-content: center; 
     position: relative; 
-    height: 50vh;
+    height: 50vw;
+    width: auto;
     margin-top: 2%;
     transform: translateX(25%);
   }
@@ -71,7 +72,7 @@ body {
   .Slogan {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-size: 25px;
+    font-size: 1.302vw;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 1.5%;
@@ -90,9 +91,9 @@ body {
     font-family: "Titillium Web", sans-serif;
     background-color: #aa4444;
     color: rgb(238, 227, 227);
-    border: 2px solid rgb(238, 227, 227);
-    font-size: 35px;
-    border-radius: 15px;
+    border: 0.104vw solid rgb(238, 227, 227);
+    font-size: 1.823vw;
+    border-radius: 0.781vw;
     width: 15%; 
     
   }
@@ -100,26 +101,26 @@ body {
   #reportButton:hover {
     background-color: #c65151;
     color: rgb(238, 227, 227);
-    border: 2px solid rgb(238, 227, 227);
+    border: 0.104vw solid rgb(238, 227, 227);
   }
 
   #reportButton.clicked {
     background-color: #d39b9b;
-    border: 2px solid #c65151;
+    border: 0.104vw solid #c65151;
     color: #c65151;
-    border-radius: 15px;
+    border-radius: 0.781vw;
   }
 
   .warning{
     color:  #aa4444;
-    font-size: 15px;
+    font-size: 0.781vw;
   }
 
   #footerText{
     display: flex;
     flex-direction: row;
     align-items: center; 
-    font-size: 25px;
+    font-size: 1.302vw;
     font-family: "Open Sans", sans-serif;
     color: #9c4242;
     padding-top: 10%;
