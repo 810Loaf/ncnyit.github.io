@@ -50,7 +50,7 @@ body {
   border: 0.2vw solid rgb(238, 227, 227); 
   font-size: 3vw; 
   border-radius: 1.5vw; 
-  width: 50%; 
+  width: 60%; 
   padding: 10px 15px; 
   margin-top: 20px; 
   text-align: center; 
@@ -71,7 +71,7 @@ body {
 
 .warning {
   color: #aa4444;
-  font-size: 1.5vw; 
+  font-size: 0.7vw; 
   margin-top: 10px;
   text-align: center;
 }
@@ -98,9 +98,9 @@ body {
 
 /* Media Queries for different screen sizes */
 /* (min-width: 600px) */
-@media (min-width: 600px) {
+@media (min-width: 300px) and (max-width: 399px) {
   .Wrap {
-    width: 100%;
+    width: 180%;
   }
 
   .Slogan {
@@ -110,13 +110,40 @@ body {
   }
 
   #reportButton {
-    font-size: 3vw;
+    font-size: 4.5vw;
     border-radius: 2vw;
-    width: 30%;
+    width: 40%;
   }
 
   .warning {
-    font-size: 2vw;
+    font-size: 3vw;
+  }
+
+  #footerText {
+    font-size: 3vw;
+  }
+}
+
+/* (min-width: 600px) */
+@media (min-width: 400px) {
+  .Wrap {
+    width: 215%;
+  }
+
+  .Slogan {
+    font-size: 3vw;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+
+  #reportButton {
+    font-size: 4.5vw;
+    border-radius: 2vw;
+    width: 40%;
+  }
+
+  .warning {
+    font-size: 3vw;
   }
 
   #footerText {
@@ -143,7 +170,7 @@ body {
   }
 
   .warning {
-    font-size: 0.781vw;
+    font-size: 1vw;
   }
 
   #footerText {
