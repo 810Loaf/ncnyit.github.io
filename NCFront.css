@@ -81,7 +81,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center; 
-  font-size: 5vw; 
+  font-size: 3vw; 
   font-family: "Open Sans", sans-serif;
   color: #9c4242;
   padding-top: 2%; 
@@ -174,7 +174,7 @@ body {
   }
 
   #footerText {
-    font-size: 1.302vw; 
+    font-size: 2vw; 
     padding-top: 10%;
   }
 }
