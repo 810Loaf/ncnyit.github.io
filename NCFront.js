@@ -25,7 +25,7 @@ reportButton.addEventListener('click', goToForm);
 footerText.addEventListener('click', goToAbout);
 
 function goToForm() {
-  window.location.href = "form.html"; //Replace form page
+  window.location.href = "https://forms.gle/sksVjvJtUQRTvEPx6"; //Replace form page
 }
 function goToAbout() {
   window.location.href = "about.html"; //Replace about page
